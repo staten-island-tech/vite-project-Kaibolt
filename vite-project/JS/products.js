@@ -1,18 +1,17 @@
-import "../img/D";
-export const Animals = [
+export const animals = [
   {
     name: "Dog",
     price: 500,
     category: "Mammal",
     alt_description: "Dog",
-    img_url: "img/dog.avif",
+    img_url: "x",
   },
   {
     name: "Cat",
     price: 200,
     category: "Mammal",
     alt_description: "Cat",
-    img_url: "img/cat.avif",
+    img_url: "x",
   },
   {
     name: "Rabbit",
