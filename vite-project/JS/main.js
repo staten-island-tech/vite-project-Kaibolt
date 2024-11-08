@@ -17,10 +17,11 @@ document.querySelector(".warmMode").addEventListener("click", function () {
 document.querySelector("#reset").addEventListener("click", function () {
   console.log("works");
 });
-function cardInserter() {
-  animals.forEach((animal) => {
-    const cardHTML = `<div class="card"><h1 class="card-header">Animal: ${animal.name}</h1><br><h2 class="card-info">Price: ${animal.price}</h2><h3 class="card-desc">Category: ${animal.category}</h3></div>`;
-    DOMSelectors.container.insertAdjacentHTML("beforeEnd", cardHTML);
-  });
-}
-cardInserter();
+animals.forEach((animal) =>
+  document
+    .querySelector(".cardContainer")
+    .insertAdjacentHTML(
+      "beforeend",
+      `<div class="card"><h1 class="card-header">Animal: ${animal.name}</h1><br><h2 class="card-info">Price: ${animal.price}</h2><h3 class="card-desc">Category: ${animal.category}</h3></div>`
+    )
+);
