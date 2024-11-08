@@ -30,7 +30,7 @@ body{
 }
 h1{font-size: var(--h1);} h2{font-size: var(--h2);} h3{font-size: var(--h3);} h4{font-size: var(--h4);} h5{font-size: var(--h5);}
 h1,h2,h3,h4,h5{text-align: center; color: var(--secondary);}
-#special{color: var(--tetriary);}
+#tri{color: var(--tetriary);}
 
 Button{
   width: 5%;
@@ -54,4 +54,28 @@ Button{
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  width: 98%;
 }
+.card {
+  width: 35rem;
+  height: 33rem;
+  border: 2px solid var(--tetriary);
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+  align-items: center;
+  flex-direction: column;
+}
+.card-img{
+  width: 60%;
+  height: 60%;
+  object-fit: fill;
+  flex-direction: column;
+  align-items: center;}
+.card-header{
+  font-size: 3rem;
+  margin-top: 1.2rem;}
+.card-desc{
+  font-size: 2.6rem;
+  text-align: center;}

@@ -22,6 +22,6 @@ animals.forEach((animal) =>
     .querySelector(".cardContainer")
     .insertAdjacentHTML(
       "beforeend",
-      `<div class="card"><h1 class="card-header">Animal: ${animal.name}</h1><br><h2 class="card-info">Price: ${animal.price}</h2><h3 class="card-desc">Category: ${animal.category}</h3></div>`
+      `<div class="card"><h1 class="card-header">Animal: ${animal.name}</h1><br><img class="card-img" src="${animal.img_url}" alt="${animal.alt_description}"><h2 class="card-desc">Price: ${animal.price}</h2><h3 class="card-desc">Category: ${animal.category}</h3></div>`
     )
 );
