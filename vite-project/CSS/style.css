@@ -58,24 +58,27 @@ Button{
 }
 .card {
   width: 35rem;
-  height: 33rem;
-  border: 2px solid var(--tetriary);
-  border-radius: 3px;
+  height: 40rem;
+  border: 3px solid var(--tetriary);
+  border-radius: 23px;
   display: flex;
   justify-content: space-around;
   margin: 2rem 0;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 2%;
 }
 .card-img{
-  width: 60%;
-  height: 60%;
+  width: 80%;
+  height: 65%;
   object-fit: fill;
   flex-direction: column;
-  align-items: center;}
+  align-items: center;
+  border-radius: 25%;
+  margin-bottom: 1%;}
 .card-header{
   font-size: 3rem;
-  margin-top: 1.2rem;}
+  margin-top: 1rem;}
 .card-desc{
-  font-size: 2.6rem;
+  font-size: 2.3rem;
   text-align: center;}
