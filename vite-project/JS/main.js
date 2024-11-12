@@ -3,10 +3,10 @@ import "../JS/products.js";
 import { DOMSelectors } from "../JS/DOM.js";
 import { animals } from "../JS/products.js";
 document.querySelector(".darkMode").addEventListener("click", function () {
-  document.body.className = "light";
+  document.body.className = "dark";
 });
 document.querySelector(".lightMode").addEventListener("click", function () {
-  document.body.className = "dark";
+  document.body.className = "light";
 });
 document.querySelector(".coolMode").addEventListener("click", function () {
   document.body.className = "cool";
