@@ -1,0 +1,84 @@
+@import "../CSS/variables.css";
+body, *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 10px;
+}
+.warm{
+  --primary: var(--orange-red);
+  --secondary: var(--white-3);
+  --tetriary: var(--grey-black);
+}
+.cool{
+  --primary: var(--light-blue);
+  --secondary: var(--white-yellow);
+  --tetriary: var(--light-cyan);
+}
+.dark{
+--primary: var(--medium-grey);
+--secondary: var(--white-2);
+--tetriary: var(--dark-yellow);
+}
+.light{
+--primary: var(--white-2);
+--secondary: var(--grey-black);
+--tetriary: var(--light-green);
+}
+body{
+  background-color: var(--primary)
+}
+h1{font-size: var(--h1);} h2{font-size: var(--h2);} h3{font-size: var(--h3);} h4{font-size: var(--h4);} h5{font-size: var(--h5);}
+h1,h2,h3,h4,h5{text-align: center; color: var(--secondary);}
+#tri{color: var(--tetriary);}
+
+Button{
+  width: 5%;
+  height: 7%;
+  border: 2px solid var(--secondary);
+  color: var(--primary);
+  background-color: var(--tetriary);
+}
+.bCont{
+  display: flex;
+  margin: 2rem auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.cardContainer{
+  display: flex;
+  margin: 2rem auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 98%;
+}
+.card {
+  width: 35rem;
+  height: 40rem;
+  border: 3px solid var(--tetriary);
+  border-radius: 23px;
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2%;
+}
+.card-img{
+  width: 80%;
+  height: 65%;
+  object-fit: fill;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25%;
+  margin-bottom: 1%;}
+.card-header{
+  font-size: 3rem;
+  margin-top: 1rem;}
+.card-desc{
+  font-size: 2.3rem;
+  text-align: center;}
