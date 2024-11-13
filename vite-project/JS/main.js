@@ -38,6 +38,11 @@ document.querySelector("#nocSale").addEventListener("click", function () {
   document.querySelector(".cardContainer").innerHTML = "";
   defaultAnimal(nocOnly);
 });
+document.querySelector("#mamSale").addEventListener("click", function () {
+  const mamOnly = animals.filter((animal) => animal.category === "Mammal");
+  document.querySelector(".cardContainer").innerHTML = "";
+  defaultAnimal(mamOnly);
+});
 
 //document.querySelector("#mamSale").addEventListener("click", function () {
 //  const allcate = animals.map((animal) => animal.category);

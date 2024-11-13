@@ -84,11 +84,4 @@ Button{
   text-align: center;}
 button{
   border-radius: 25%; border: 3px solid var(--secondary);
-  font-weight: bold;
-}
-.lightMode{
-  background: linear-gradient(var(--white-2), var(--grey-black));
-}
-.darkMode{
-  background: linear-gradient(var(--medium-grey), var(--white-2));
 }
