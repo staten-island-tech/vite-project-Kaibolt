@@ -84,69 +84,78 @@ export const animals = [
     price: 350,
     category: "Nocturnal",
     alt_description: "Owl",
-    img_url: "x",
+    img_url: "https://chazoo.s3.amazonaws.com/Great-Horned-Owl.JPG",
   },
   {
     name: "Sugar Glider",
     price: 150,
     category: "Nocturnal",
     alt_description: "Sugar Glider",
-    img_url: "x",
+    img_url:
+      "https://cdcssl.ibsrv.net/cimg/www.curatedcontent.smb/730x402_85/548/sugar-glider-730x400-626548.jpg",
   },
   {
     name: "Hedgehog",
     price: 100,
     category: "Nocturnal",
     alt_description: "Hedgehog",
-    img_url: "x",
+    img_url:
+      "https://images.ctfassets.net/rt5zmd3ipxai/4Z1RIc1p8375Fb1JPvVhcg/f39b175c5b030bd6e2df81fa1b9fb0de/ServiceCards-Hedgehog.png",
   },
   {
     name: "Bat",
     price: 250,
     category: "Nocturnal",
     alt_description: "Bat",
-    img_url: "x",
+    img_url:
+      "https://conservingcarolina.org/wp-content/uploads/2022/10/shutterstock_1282913071_mfig5z.webp",
   },
   {
     name: "Lemur",
     price: 2200,
     category: "Nocturnal",
     alt_description: "Lemur",
-    img_url: "x",
+    img_url:
+      "https://images.theconversation.com/files/125960/original/image-20160609-7074-1gpn88u.jpg?ixlib=rb-4.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
   },
   {
     name: "Gecko",
     price: 50,
     category: "Reptile",
     alt_description: "Gecko",
-    img_url: "x",
+    img_url:
+      "https://www.zillarules.com/-/media/project/oneweb/zilla/images/pets/caresheets/leopardgecko.png",
   },
   {
     name: "Bearded Dragon",
     price: 70,
     category: "Reptile",
     alt_description: "Bearded Dragon",
-    img_url: "x",
+    img_url:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Bartagame_%28fcm%29.jpg/1200px-Bartagame_%28fcm%29.jpg",
   },
   {
     name: "Leopard Gecko",
     price: 50,
     category: "Reptile",
     alt_description: "Leopard Gecko",
-    img_url: "x",
+    img_url:
+      "https://www.tortoisetown.com/wp-content/smush-webp/2018/04/tangerine-leopard-gecko.jpg.webp",
   },
   {
     name: "Ball Python",
     price: 100,
     category: "Reptile",
     alt_description: "Ball Python",
-    img_url: "x",
+    img_url:
+      "https://i.ytimg.com/vi/aGi_efQ-2t0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBH87Mh9ir3_qxAW5HGvX5braN6sA",
   },
   {
     name: "Tortoise",
     price: 200,
     category: "Reptile",
     alt_description: "Tortoise",
-    img_url: "x",
+    img_url:
+      "https://cdn.britannica.com/25/178225-050-AAF9B658/Desert-tortoise.jpg",
   },
 ];
