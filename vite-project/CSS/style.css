@@ -23,7 +23,7 @@ font-size: 10px;
 .light{
 --primary: var(--white-2);
 --secondary: var(--grey-black);
---tetriary: var(--light-green);
+--tetriary: var(--dark-green);
 }
 body{
   background-color: var(--primary)
@@ -32,13 +32,16 @@ h1{font-size: var(--h1);} h2{font-size: var(--h2);} h3{font-size: var(--h3);} h4
 h1,h2,h3,h4,h5{text-align: center; color: var(--secondary);}
 #tri{color: var(--tetriary);}
 
-Button{
+button{
   width: 5%;
   height: 7%;
   border: 2px solid var(--secondary);
   color: var(--primary);
   background-color: var(--tetriary);
+  border-radius: 25%;
+  border: 3px solid var(--secondary);
 }
+
 .bCont{
   display: flex;
   margin: 2rem auto;
@@ -82,6 +85,3 @@ Button{
 .card-desc{
   font-size: 2.3rem;
   text-align: center;}
-button{
-  border-radius: 25%; border: 3px solid var(--secondary);
-}
